@@ -450,7 +450,7 @@ section.alt { background: var(--color-bg-alt); }
   font-weight: 500;
 }
 
-.abstract-toggle { margin-top: 10px; }
+.abstract-toggle { margin-top: 14px; }
 .abstract-toggle summary {
   cursor: pointer;
   color: var(--color-primary);
@@ -464,6 +464,7 @@ section.alt { background: var(--color-bg-alt); }
   font-size: 0.75em;
 }
 .abstract-toggle[open] summary::before { content: "▾ "; }
+.abstract-toggle summary a { margin-left: 8px; }
 .abstract-toggle p { margin: 10px 0 0; }
 
 /* ---------- Contact ---------- */
